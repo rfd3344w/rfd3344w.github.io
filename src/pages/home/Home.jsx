@@ -22,11 +22,15 @@ export default function Test() {
   return (
     <Container>
       <Typography variant="h5"> home page </Typography>
+
+
       <Button variant="contained" onClick={() => nav('')}>
         test
       </Button>
 
-
+      <Box my={2}>
+        <img src="https://github.com/rfd3344/staticJH/blob/master/images/bao/bao3.jpg?raw=true" />
+      </Box>
 
     </Container>
 
