@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "env-cmd -e base node ./src/copyResources",
+    "start": "env-cmd -e base node ./src/index",
     "eject": "react-scripts eject"
   },
   "dependencies": {
