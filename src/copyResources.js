@@ -6,17 +6,17 @@ const {
 } = process.env;
 
 
-const copyFolder = () => {
+const copyFolder = (srcPath, destPath) => {
   console.log(`--------------COPY Folder---------------`);
   console.log(`
-    From: ${DIR_FROM}
-    Dest: ${DIR_DEST}
+    From: ${srcPath}
+    Dest: ${destPath}
   `);
 
-  fs.copySync(DIR_FROM, DIR_DEST);
+  fs.copySync(srcPath, destPath);
 
   console.log('-----------------SUCCESS-----------------');
 };
 
-copyFolder();
+copyFolder(DIR_FROM, DIR_DEST);
 // module.exports.copyFolder = copyFolder;
