@@ -7,7 +7,7 @@ const {
 } = process.env;
 
 
-runCommand('git status')
+// runCommand('git status')
 
 
-// copyFolder(DIR_FROM, DIR_DEST);
+copyFolder(DIR_FROM, DIR_DEST);
